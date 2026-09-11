@@ -1,0 +1,17 @@
+{
+  "name": "ejercicio-04",
+  "version": "1.0.0",
+  "description": "API Battle Royale enfocada en ES Modules",
+  "main": "src/app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node --watch src/app.js"
+  },
+  "keywords": ["node", "express", "battle-royale", "esm"],
+  "author": "Antonio Canux",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.0"
+  }
+}
